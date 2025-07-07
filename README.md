@@ -57,7 +57,7 @@ Keep the table design strictly in HTML for simplicity.
     <title>Product Table</title>
 </head>
 <body>
-    <table celspanning="5" cellpadding="5" border="5">
+    <table cellspacing="5" cellpadding="5" border="5">
         <caption>Product Information</caption>
         <thead>
             <tr>
