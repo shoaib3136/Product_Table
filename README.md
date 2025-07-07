@@ -89,7 +89,7 @@ Keep the table design strictly in HTML for simplicity.
 ```
 
 ## Output:
-![alt text](image.png)
+![alt text](image-1.png)
 
 ## Result:
 A structured HTML table that displays product-related information, including product names, prices, and descriptions, useful for catalogs, listings, or e-commerce prototypes is created successfully.
