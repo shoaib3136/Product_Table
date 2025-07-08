@@ -48,7 +48,7 @@ Use meaningful text inside the table for clarity.
 
 Keep the table design strictly in HTML for simplicity.
 ## HTML Code:
-```
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -87,9 +87,55 @@ Keep the table design strictly in HTML for simplicity.
 </body>
 </html>
 ```
+## CSS Code:
+```css
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(136, 240, 211);
+    
+}
+caption{
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+   
+    
+}
+table{
+    color: rgb(7, 4, 4);
+    background-color: azure;
+    border-collapse: collapse;
+    padding-top: 10px;
+    margin: auto;
+    padding-bottom: 10px;
+    
+    
+}
+tr:nth-child(even){
+    background-color: pink;
+
+}
+th, td{
+    border: 3px solid black;
+    padding: 10px;
+    text-align: center;
+}
+td:hover{
+    background: black;
+    color: white;
+}
+th{
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+```
 
 ## Output:
 ![alt text](image-1.png)
+![alt text](image.png)
 
 ## Result:
 A structured HTML table that displays product-related information, including product names, prices, and descriptions, useful for catalogs, listings, or e-commerce prototypes is created successfully.
